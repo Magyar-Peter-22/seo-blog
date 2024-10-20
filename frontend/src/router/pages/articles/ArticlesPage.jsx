@@ -1,9 +1,17 @@
 import Typography from '@mui/material/Typography';
+import SEO from '../../../seo/SEO';
 
 export default () => {
     return (
-        <Typography>
-           articles
-        </Typography>
+        <>
+            <SEO
+                title="Articles"
+                description="cat"
+                type="article"
+            />
+            <Typography>
+                articles
+            </Typography>
+        </>
     )
 }
